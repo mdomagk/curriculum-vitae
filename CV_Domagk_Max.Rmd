@@ -1,0 +1,37 @@
+---
+name: Max Domagk
+date: "`r format(Sys.time(), '%B, %Y')`"
+qualifications: Dr.-Ing.
+position: Postdoktorand
+address: Institut für Elektrische Energieversorgung und Hochspannungstechnik, Technische Universität Dresden
+phone: +49 351 463-35223
+email: max.domagk@tu-dresden.de
+#orcid: 0000-0001-5951-2033
+researchgate: Max-Domagk
+headcolor: "414141"
+output:
+  vitae::awesomecv:
+    keep_tex: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
+library(tidyverse)
+library(RefManageR)
+library(vitae)
+```
+
+# Ausbildung
+
+```{r ausbildung}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+  "BCom (Hons) in Econometrics", "Monash University", "Clayton, Australia", "Mar. 2017 - Nov. 2017",
+    list("Recipient of the Econometrics Honours Memorial Scholarship, Dean's Honour, Dean's Commendation, and best in class for 5 units.",
+         "Honours research project was to develop a state space model for quickly forecasting time series with multiple seasonalities.",
+         "Studied units include Bayesian and frequentist econometrics, advanced statistical modelling and computational science.")
+) %>%
+  detailed_entries(degree, dates, uni, loc, details)
+```
+
+# Veröffentlichungen
