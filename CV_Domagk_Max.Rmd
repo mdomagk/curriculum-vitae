@@ -2,7 +2,7 @@
 name: Max Domagk
 date: "`r format(Sys.time(), '%B, %Y')`"
 qualifications: Dr.-Ing.
-position: Postdoktorand
+position: Wissenschaftlicher Mitarbeiter
 address: Institut für Elektrische Energieversorgung und Hochspannungstechnik, Technische Universität Dresden
 phone: +49 351 463-35223
 email: max.domagk@tu-dresden.de
@@ -16,9 +16,15 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
+
 library(tidyverse)
 library(RefManageR)
 library(vitae)
+
+pubs <- bibliography_entries("domagk.bib") %>%
+  mutate(year = as.numeric(gsub("[a-z]", "", id))) %>%
+  filter(type %in% c("paper-conference", "article-journal")) %>%
+  arrange(issued, author$family)
 ```
 
 # Ausbildung
@@ -34,4 +40,8 @@ tribble(
   detailed_entries(degree, dates, uni, loc, details)
 ```
 
-# Veröffentlichungen
+# Veröffentlichungen (ausgewählt)
+
+```{r veroeffentlichungen}
+pubs %>% filter(grepl("domagk|zyabkina|gasch2017|meyer2017", id), year >= 2015)
+```
