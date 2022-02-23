@@ -94,7 +94,8 @@ bibliography_entries("publications.bib") %>%
 
 ```{r vortraege}
 bibliography_entries("presentations.bib") %>%
-  filter(!grepl("domagk2018[ab]", id))
+  arrange(issued, author$family) %>%
+  filter(!grepl("vortrag2018[ab]", id))
 ```
 
 # Auszeichnungen
