@@ -9,9 +9,6 @@ email: max.domagk@tu-dresden.de
 orcid: 0000-0001-5951-2033
 researchgate: Max-Domagk
 headcolor: "414141"
-## Modifications of ieee.csl
-## replaced  "presented at" with "" in L193
-## added option "default-locale="de-DE"" in L2
 csl: ieee_de.csl
 output:
   vitae::awesomecv:
