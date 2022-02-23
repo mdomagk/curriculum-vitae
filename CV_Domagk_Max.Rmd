@@ -10,6 +10,7 @@ email: max.domagk@tu-dresden.de
 orcid: 0000-0001-5951-2033
 researchgate: Max-Domagk
 headcolor: "414141"
+csl: ieee.csl
 output:
   vitae::awesomecv:
     keep_tex: false
@@ -17,14 +18,8 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
-
 library(tidyverse)
 library(vitae)
-
-pubs <- bibliography_entries("domagk.bib") %>%
-  mutate(year = as.numeric(gsub("[a-z]", "", id))) %>%
-  filter(type %in% c("paper-conference", "article-journal")) %>%
-  arrange(issued, author$family)
 ```
 
 # Wissenschaftlicher Werdegang
@@ -82,7 +77,10 @@ Data mining, PQ, Harmonische, Statistik
 # Veröffentlichungen (Auswahl)
 
 ```{r veroeffentlichungen}
-pubs %>%
+bibliography_entries("publications.bib") %>%
+  mutate(year = as.numeric(gsub("[a-z]", "", id))) %>%
+  filter(type %in% c("paper-conference", "article-journal")) %>%
+  arrange(issued, author$family) %>%
   filter(
     grepl("domagk|zyabkina|gasch2017|meyer2017", id),
     year >= 2015
@@ -91,11 +89,11 @@ pubs %>%
 
 # Vorträge (Auswahl)
 
-* Power Quality Vertiefungseminar, *Analyse von Langzeitmessungen zur Charakterisierung von Abnehmerstrukturen in Niederspannungsnetzen*, Mannheim, 02/2016.
-* Netzleittechnik- & Informationstechnik-Symposium, *Konzeption, Implementierung und Nutzung von Power Quality Messungen in Mittel- und Niederspannungsnetzen*, Dresden, 10/2017.
-<!-- * Netzharmonie Workshop, *Netzweite Simulationen in exemplarischen Netzen*, Berlin, 09/2018. -->
-* Abschlussworkshop Netzharmonie, *Neue Ansätze und verbesserte Verfahren für die Niederspannung*, Berlin, 09/2018.
-* VDE Kolloquium, *Analyse von Langzeitmessungen der Elektroenergiequalität zur Charakterisierung öffentlicher Niederspannungsnetze*, online, 05/2021.
+```{r vortraege}
+bibliography_entries("presentations.bib") %>%
+  ##mutate(year = as.numeric(gsub("[a-z]", "", id))) %>%
+  arrange(issued, author$family)
+```
 
 # Auszeichnungen
 
