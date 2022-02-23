@@ -24,7 +24,7 @@ library(vitae)
 pubs <- bibliography_entries("domagk.bib") %>%
   mutate(year = as.numeric(gsub("[a-z]", "", id))) %>%
   filter(type %in% c("paper-conference", "article-journal")) %>%
-  arrange(desc(issued), author$family)
+  arrange(issued, author$family)
 ```
 
 # Wissenschaftlicher Werdegang
@@ -32,15 +32,19 @@ pubs <- bibliography_entries("domagk.bib") %>%
 ```{r werdegang}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "Promotion", "Technische Universität Dresden", "Dresden, Deutschland", "2015",
-  list("Thema der Dissertation: Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität (\\href{https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866}{https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866})"),
-    "Wissenschaftlicher Mitarbeiter", "Technische Universität Dresden", "Dresden, Deutschland", "seit 2010",
-  list("Forschungsschwerpunkt Elektroenergiequalität am Lehrstuhl für
-Elektroenergieversorgung (Prof. Peter Schegner)"),
-  "Fachpraktikum", "Helsinki University of Technology", "Helsinki, Finnland", "2008",
-  list("Simulationstechnische Untersuchung einer dezentralen Kompensation kapazitiver Erdschlussströme im Department of Electrical Power Systems (Prof. Matti Lethonen)"),
-  "Diplomstudium", "Technische Universität Dresden", "Dresden, Deutschland", "2004 - 2019",
-  list("Thema der Diplomarbeit: Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell")
+
+  "Diplomstudium", "Technische Universität Dresden", "Dresden, Deutschland", "10/2004 - 12/2009",
+  list("Thema der Diplomarbeit: Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell"),
+
+  "Fachpraktikum", "Helsinki University of Technology", "Helsinki, Finnland", "04/2008 - 09/2008",
+  list("Simulationstechnische Untersuchungen einer dezentralen Kompensation kapazitiver Erdschlussströme im Department of Electrical Power Systems (Prof. Matti Lethonen)"),
+
+  "Wissenschaftlicher Mitarbeiter", "Technische Universität Dresden", "Dresden, Deutschland", "seit 01/2010",
+  list("Forschungsschwerpunkt Elektroenergiequalität am Lehrstuhl für Elektroenergieversorgung (Prof. Peter Schegner)"),
+
+  "Promotion", "Technische Universität Dresden", "Dresden, Deutschland", "10/2015",
+  list("Thema der Dissertation: Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität (\\href{https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866}{https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866})")
+
 ) %>%
   detailed_entries(uni, dates, degree, loc, details, .protect = FALSE)
 ```
@@ -53,15 +57,16 @@ Data mining, PQ, Harmonische, Statistik
 
 ## Öffentlich geförderte Projekte
 
+2010 – 2016 DFG: Identifikation und Quantifizierung korrelativer Zusammen- hänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität (Projektleitung)
+
 2015 – 2018 BMWI: NetzHarmonie - Optimierte Effizienz und Netzverträglichkeit bei der Integration von Erzeugungsanlagen aus Oberschwingungssicht (Teilprojektleitung)
 
-2010 – 2016 DFG: Identifikation und Quantifizierung korrelativer Zusammen- hänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität (Projektleitung)
 
 ## Drittmittelgeförderte Projekte
 
-2018 – 2021 Netzbetreiber: Analyse und Bewertung der Strom- und Spannungsqualität im Übertragungsnetz des Netzbetreibers (Projektleitung)
-
 2012 – 2014 FNN im VDE: Systematische Bewertung der Strom- und Spannungsqualität in öffentlichen Niederspannungsnetzen Deutschlands (Teilprojektleitung)
+
+2018 – 2021 Netzbetreiber: Analyse und Bewertung der Strom- und Spannungsqualität im Übertragungsnetz des Netzbetreibers (Projektleitung)
 
 # Lehrtätigkeit
 
@@ -71,20 +76,49 @@ Data mining, PQ, Harmonische, Statistik
 - Betreuung von Studien-, Diplom- und Masterarbeiten (Anzahl?!)
 - Durchführung von Praktika im Grund- und Hauptstudium
 - Vorlesungen und Übungen am Lehrstuhl (vertretungsweise)
+- Fake
+- FakeFake
 
 # Veröffentlichungen (Auswahl)
 
 ```{r veroeffentlichungen}
-pubs %>% filter(grepl("domagk|zyabkina|gasch2017|meyer2017", id), year >= 2015)
+pubs %>%
+  filter(
+    grepl("domagk|zyabkina|gasch2017|meyer2017", id),
+    year >= 2015
+  )
 ```
 
 # Vorträge (Auswahl)
 
-- VDE Habil 2021
-- Netzharmonie Workshop 2018
-- VDE Netzleittechnik Symposium, 2017, Dresden
-- Power Quality Vertiefungsseminar, 2016, Mannheim
+* Power Quality Vertiefungseminar, *Analyse von Langzeitmessungen zur Charakterisierung von Abnehmerstrukturen in Niederspannungsnetzen*, Mannheim, 02/2016.
+* Symposium Netzleittechnik/Informationstechnik, *Konzeption, Implementierung und Nutzung von Power Quality Messungen in Mittel- und Niederspannungsnetzen*, Dresden, 10/2017.
+<!-- * Netzharmonie Workshop, *Netzweite Simulationen in exemplarischen Netzen*, Berlin, 09/2018. -->
+* Netzharmonie Workshop, *Neue Ansätze und verbesserte Verfahren für die Niederspannung*, Berlin, 09/2018.
+* VDE Kolloquium, *Analyse von Langzeitmessungen der Elektroenergiequalität zur Charakterisierung öffentlicher Niederspannungsnetze*, online, 05/2021.
+
+<!-- % \section{Vorträge}
+<!-- % \cvitem{2018}{Domagk: \textit{Neue Ansätze und verbesserte Verfahren -->
+<!-- %     für die Niederspannung}. Abschlussworkshop Netzharmonie, Berlin, -->
+<!-- %   11.-12.09.2018} -->
+
+<!-- % \cvitem{2018}{Domagk et\,al.: \textit{Netzweite Simulationen in -->
+<!-- %     exemplarischen Netzen}. Abschlussworkshop Netzharmonie, Berlin, -->
+<!-- %   11.-12.09.2018} -->
+
+<!-- % \cvitem{2017}{Eberl/Domagk: \textit{Konzeption, Implementierung und -->
+<!-- %     Nutzung von Power Quality Messungen in Mittel- und -->
+<!-- %     Niederspannungsnetzen}. 20. Symposium -->
+<!-- %   Netzleittechnik/12. Symposium Informationstechnik, Dresden, -->
+<!-- %   18.-19.10.2017} -->
+
+<!-- % \cvitem{2016}{Domagk: \textit{Analyse von Langzeitmessungen zur -->
+<!-- %     Charakterisierung von Abnehmerstrukturen in -->
+<!-- %     Niederspannungsnetzen}. Power Quality Vertiefungsseminar, -->
+<!-- %   Mannheim, 23.-25.02.2016} -->
+
+<!-- - VDE Habil 2021 -->
 
 # Auszeichnungen
 
-2015 Best Student Paper (AUPEC-Konferenz in Wollongong, Australien)
+* Best Student Paper, *Australasian Universities Power Engineering Conference*,  Wollongong, Australien, 09/2015.
