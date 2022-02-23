@@ -24,24 +24,65 @@ library(vitae)
 pubs <- bibliography_entries("domagk.bib") %>%
   mutate(year = as.numeric(gsub("[a-z]", "", id))) %>%
   filter(type %in% c("paper-conference", "article-journal")) %>%
-  arrange(issued, author$family)
+  arrange(desc(issued), author$family)
 ```
+
+Forschungsschwerpunkte: Data mining, EEQ, Harmonische, ...
 
 # Ausbildung
 
 ```{r ausbildung}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-  "BCom (Hons) in Econometrics", "Monash University", "Clayton, Australia", "Mar. 2017 - Nov. 2017",
-    list("Recipient of the Econometrics Honours Memorial Scholarship, Dean's Honour, Dean's Commendation, and best in class for 5 units.",
-         "Honours research project was to develop a state space model for quickly forecasting time series with multiple seasonalities.",
-         "Studied units include Bayesian and frequentist econometrics, advanced statistical modelling and computational science.")
+  "Technische Universität Dresden", "Promotion", "Dresden, Deutschland", "2010 - 2015",
+  list("Thema der Dissertation: Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität"),
+    "Studium (Dipl.-Ing.)", "Technische Universität Dresden", "Dresden, Deutschland", "2004 - 2019",
+    list("Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell")
 ) %>%
   detailed_entries(degree, dates, uni, loc, details)
 ```
 
-# Veröffentlichungen (ausgewählt)
+Link zur Diss ergänzen!
+
+seit 01/2010 Wissenschaftlicher Mitarbeiter, Institut für Elektrische Energieversorgung und Hochspannungstechnik der Technischen Universität Dresden, Dresden.
+Arbeitsgruppe, Forschungsschwerpunkte
+
+04/2008 –09/2008 Fachpraktikum, Department of Electrical Engineering/Power Systems of Helsinki Uni- versity of Technology , Helsinki (Finnland), Simulationstechnische Untersuchung einer dezentralen Kompensation des kap
+
+# Forschungsprojekte
+
+## Öffentlich geförderte Zuwendungen
+
+2010 – 2016 DFG: Identifikation und Quantifizierung korrelativer Zusammen- hänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität (Projektleitung)
+
+2015 – 2018 BMWI: NetzHarmonie - Optimierte Effizienz und Netzverträglichkeit bei der Integration von Erzeugungsanlagen aus Oberschwingungssicht (AP-Leitung)
+
+## Drittmittelgefördert durch Organisationen/Industrie
+
+2012 – 2014 FNN im VDE: Systematische Bewertung der Strom- und Spannungsqualität in öffentlichen Niederspannungsnetzen Deutschlands (Teilprojektleitung)
+
+2018 – 2020 Netzbetreiber: Analyse und Bewertung der Strom- und Spannungsqualität im Übertragungsnetz des Netzbetreibers (Projektleitung)
+
+# Lehrtätigkeit
+
+- Aufbau der Vorlesung „Speicherung elektrischer Energie“ (WS 15/16)
+- Mitarbeit an der Vorlesung „Artificial Intelligence applied to Smart Grids“ (WS 20/21 WS 21/22)
+- Planung und Durchführung des Oberseminars „Anwendung von Methoden zur Bild- /Mustererkennung für die Klassifizierung von Messreihen der Strom- und Spannungsqualität “ (WS 20/21)
+- Betreuung von Studien-, Diplom- und Masterarbeiten
+
+# Veröffentlichungen (Auswahl)
 
 ```{r veroeffentlichungen}
 pubs %>% filter(grepl("domagk|zyabkina|gasch2017|meyer2017", id), year >= 2015)
 ```
+
+# Vorträge (Auswahl)
+
+- Power Quality Vertiefungsseminar, 2016, Mannheim
+- VDE Netzleittechnik Symposium, 2017, Dresden
+- Netzharmonie Workshop 2018
+- VDE Habil 2021
+
+# Auszeichnungen
+
+2015 Best Student Paper (AUPEC-Konferenz in Wollongong, Australien)
