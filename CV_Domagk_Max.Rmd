@@ -1,12 +1,12 @@
 ---
 name: Max Domagk
 date: "`r format(Sys.time(), '%B, %Y')`"
-qualifications: Dr.-Ing.
-position: Wissenschaftlicher Mitarbeiter
+#qualifications: Dr.-Ing.
+position: Doktoringenieur der Elektrotechnik
 address: Institut für Elektrische Energieversorgung und Hochspannungstechnik, Technische Universität Dresden
 phone: +49 351 463-35223
 email: max.domagk@tu-dresden.de
-#orcid: 0000-0001-5951-2033
+orcid: 0000-0001-5951-2033
 researchgate: Max-Domagk
 headcolor: "414141"
 output:
@@ -18,7 +18,6 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
 
 library(tidyverse)
-library(RefManageR)
 library(vitae)
 
 pubs <- bibliography_entries("domagk.bib") %>%
