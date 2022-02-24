@@ -64,14 +64,32 @@ tribble(
 
 # Lehrtätigkeit
 
-- Aufbau der Vorlesung „Speicherung elektrischer Energie“ (WS 15/16)
-- Mitarbeit an der Vorlesung „Artificial Intelligence applied to Smart Grids“ (WS 20/21 WS 21/22)
-- Planung und Durchführung des Oberseminars „Anwendung von Methoden zur Bild- /Mustererkennung für die Klassifizierung von Messreihen der Strom- und Spannungsqualität “ (WS 20/21)
-- Betreuung von Studien-, Diplom- und Masterarbeiten (Anzahl?!)
-- Durchführung von Praktika im Grund- und Hauptstudium
-- Vorlesungen und Übungen am Lehrstuhl (vertretungsweise)
-- Fake
-- FakeFake
+```{r}
+tribble(
+  ~ semester, ~ name, ~ details,
+
+  "WS 15/16", "Speicherung elektrischer Energie",
+  "Aufbau der Vorlesung",
+
+  "20/21", "Artificial Intelligence applied to Smart Grids",
+  "Aufbau der Vorlesung",
+
+  "WS 20/21", "Oberseminar Elektrische Energieversorgung",
+  "Thema: Anwendung von Methoden zur Bild-/Mustererkennung für die Klassifizierung von Messreihen der Strom- und Spannungsqualität"
+
+) %>%
+  brief_entries(
+    glue::glue("\\textbf{<name>}: <details>", .open = "<", .close = ">"),
+    semester,
+    .protect = FALSE
+  )
+```
+
+- Betreuung von Abschlussarbeiten Studienarbeiten (n?), Diplom-/Masterarbeiten (n?)
+
+- Vorlesungen und Übungen am Lehrstuhl (vertretungsweise, u.a. ...)
+
+- Durchführung von Praktika (Verschiedene Praktika im Grund- und Hauptstudium)
 
 # Veröffentlichungen (Auswahl)
 
