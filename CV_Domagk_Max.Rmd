@@ -23,7 +23,7 @@ library(vitae)
 
 # Forschungsschwerpunkte
 
-Elektronergiequalität, Harmonische, Data mining, Zeitreihenanalyse
+Elektronergiequalität, Netzrückwirkungen, Oberschwingungen, Data mining, Zeitreihenanalyse
 
 # Wissenschaftlicher Werdegang
 
@@ -58,14 +58,14 @@ Validierung und Weiterentwicklung von Verfahren zur Beurteilung von Netzrückwir
 
 # Lehrtätigkeit
 
-Aufbau der Vorlesung **Speicherung elektrischer Energie** \hfill WS 2015/16
+Aufbau der Vorlesung: **Speicherung elektrischer Energie** \hfill Wintersemester 2015/2016
 
-Aufbau und Mitarbeit an der Vorlesung **Artificial Intelligence applied to Smart Grids**  \hfill seit WS 2020/21
+Aufbau der Vorlesung: **Artificial Intelligence applied to Smart Grids**  \hfill Wintersemester 2020/2021
 
-Planung und Durchführung des **Oberseminar Elektrische Energieversorgung** \hfill WS 2020/21\
+Planung und Durchführung: **Oberseminar Elektrische Energieversorgung** \hfill Wintersemester 2020/2021\
 Anwendung von Methoden zur Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der Elektroenergiequalität
 
-Aufgaben am Lehrstuhl \hfill seit SS 2010
+Aufgaben am Lehrstuhl: \hfill seit Sommersemester 2010
 
 - Betreuung von Abschlussarbeiten (X Studienarbeiten, Y Diplom-/Masterarbeiten)
 - Vertretung von Vorlesungen und Übungen (u.a. ...)
