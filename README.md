@@ -4,8 +4,8 @@ CV built with [vitae](https://cran.r-project.org/web/packages/vitae/index.html) 
 
 ## Files
 
-- `CV_Domagk_Max.Rmd` - R Markdown file with content
+- `CV_Domagk_Max.Rmd` - R Markdown file with CV content
 - `awesome-cv.cls` - Awesome CV class with minor customization
 - `ieee_de.csl` - IEEE citation style language file (c.f. [Zotero style repository](https://www.zotero.org/styles)) with German language customization
-- `*.bib` - bibtex file with awards/presentations
+- `*.bib` - bibtex files with awards/presentations
 - `publications.bib` - bibtex file with publications epxorted by literature management software [Zotero](https://www.zotero.org/)
