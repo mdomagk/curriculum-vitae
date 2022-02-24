@@ -96,4 +96,8 @@ bibliography_entries("presentations.bib") %>%
 
 # Auszeichnungen
 
-* Best Student Paper, *Australasian Universities Power Engineering Conference*,  Wollongong, Australien, Sep. 2015.
+```{r auszeichnungen}
+bibliography_entries("awards.bib")
+```
+
+<!-- * Best Student Paper, *Australasian Universities Power Engineering Conference*,  Wollongong, Australien, Sep. 2015. -->
