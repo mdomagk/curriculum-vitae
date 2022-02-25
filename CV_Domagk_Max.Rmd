@@ -27,53 +27,51 @@ Data Mining, Zeitreihenanalyse, Visualisierungen, Elektroenergiequalität, Netzr
 
 # Wissenschaftlicher Werdegang
 
-**Promotion** Technische Universität Dresden, Dresden \hfill\textbf{Okt. 2015}\
+**Promotion** _Technische Universität Dresden, Dresden_ \hfill _Okt. 2015_\
 Thema: Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität ([https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866](https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866))
 
-**Wissenschaftlicher Mitarbeiter**, Technische Universität Dresden, Dresden \hfill\textbf{seit Jan. 2010}\
+**Wissenschaftlicher Mitarbeiter** _Technische Universität Dresden, Dresden_ \hfill _seit Jan. 2010_\
 Institut für Elektrische Energieversorgung und Hochspannungstechnik am Lehrstuhl für Elektroenergieversorgung (Prof. Peter Schegner)
 
-**Fachpraktikum** Helsinki University of Technology, Helsinki, Finnland \hfill\textbf{Apr. 2008 - Sep. 2008}\
+**Fachpraktikum** _Helsinki University of Technology, Helsinki, Finnland_ \hfill\ _Apr. 2008 - Sep. 2008_\
 Simulationstechnische Untersuchungen einer dezentralen Kompensation kapazitiver Erdschlussströme im Department of Electrical Power Systems (Prof. Matti Lethonen)
 
-**Diplomstudium** Technische Universität Dresden, Dresden \hfill\textbf{Okt. 2004 - Dez. 2009}\
+**Diplomstudium** _Technische Universität Dresden, Dresden_ \hfill\ _Okt. 2004 - Dez. 2009_\
 Thema der Diplomarbeit: Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell
 
 # Forschungsprojekte (Auswahl)
 
-<!-- **TenneT** (Auftragsforschung) Teilprojektleitung  \hfill 2019 - 2021 -->
+**TenneT** (Auftragsforschung) _Teilprojektleitung_  \hfill _2019 - 2021_\
+Validierung und Weiterentwicklung von Verfahren zur Beurteilung von Netzrückwirkungen (Verzerrung)
 
-<!-- - Validierung und Weiterentwicklung von Verfahren zur Beurteilung von Netzrückwirkungen (Verzerrung) -->
-
-**TransnetBW** (Auftragsforschung) Projektleitung  \hfill\textbf{2018 - 2022}\
+**TransnetBW** (Auftragsforschung) _Projektleitung_  \hfill\ _2018 - 2022_\
 Analyse und Bewertung der Strom- und Spannungsqualität im Übertragungsnetz des Netzbetreibers
 
-**BMWI** (FKZ: 0325757A-L) Teilprojektleitung \hfill\textbf{2016 - 2018}\
+**BMWI** (FKZ: 0325757A-L) _Teilprojektleitung_ \hfill\ _2016 - 2018_\
 NetzHarmonie: Optimierte Effizienz und Netzverträglichkeit bei der Integration von Erzeugungsanlagen aus Oberschwingungssicht
 
-**FNN im VDE** (Auftragsforschung) Teilprojektleitung \hfill 2012 - 2014
-
+**FNN im VDE** (Auftragsforschung) _Teilprojektleitung_ \hfill\ _2012 - 2014_\
 Systematische Bewertung der Strom- und Spannungsqualität in öffentlichen Niederspannungsnetzen Deutschlands
 
-**DFG** (FKZ: SCHE 571/8-1, SCHE 571/8-2) Projektleitung \hfill 2010 - 2016
-
+**DFG** (FKZ: SCHE 571/8-1 und SCHE 571/8-2) _Projektleitung_ \hfill\ _2010 - 2016_\
 Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität
 
 # Lehrtätigkeit
 
-Aufbau der Vorlesung: **Artificial Intelligence applied to Smart Grids**  \hfill WS 2020/2021
+**Artificial Intelligence applied to Smart Grids** _Mitarbeit an der Vorlesung_ \hfill\ _seit WS 2020/2021_
 
-Planung und Durchführung: **Oberseminar Elektrische Energieversorgung** \hfill WS 2020/2021
-
+**Oberseminar Elektrische Energieversorgung** _Planung und Durchführung_ \hfill\ _WS 2020/2021_\
 Thema: Methoden der Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der Elektroenergiequalität
 
-Aufbau der Vorlesung: **Speicherung elektrischer Energie** \hfill WS 2015/2016
+**Speicherung elektrischer Energie** _Aufbau der Vorlesung_ \hfill\ _WS 2015/2016_
 
-Aufgaben am Lehrstuhl: \hfill seit 2010
+Aufgaben am Lehrstuhl: \hfill\ _seit 2010_
 
+- Betreuung von Abschlussarbeiten (4 Studien- und 6 Diplom-/Masterarbeiten)
 - Vertretung bei Vorlesungen und Übungen (u.a. Betrieb elektrischer Energieversorgungssysteme/-anlagen)
 - Durchführung von Praktika im Grund- und Hauptstudium (u.a. Leitungsparameter, Schaltüberspannungen)
-- Betreuung von Abschlussarbeiten (4 Studien- und 6 Diplom-/Masterarbeiten)
+
+\newpage
 
 # Veröffentlichungen (Auswahl)
 
