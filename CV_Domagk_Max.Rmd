@@ -8,7 +8,7 @@ phone: +49 351 463-35223
 email: max.domagk@tu-dresden.de
 orcid: 0000-0001-5951-2033
 researchgate: Max-Domagk
-headcolor: "414141"
+headcolor: 414141
 csl: ieee_de.csl
 output:
   vitae::awesomecv:
@@ -25,19 +25,19 @@ library(vitae)
 
 Data Mining, Zeitreihenanalyse, Visualisierungen, Elektroenergiequalität, Netzrückwirkungen, Oberschwingungen
 
-# Wissenschaftlicher Werdegang
+# Akademischer Werdegang
 
-**Promotion** _Technische Universität Dresden, Dresden_ \hfill _Okt. 2015_\
-Thema: Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität ([https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866](https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866))
+**Wissenschaftlicher Mitarbeiter** _Technische Universität Dresden_ \hfill _seit Jan. 2010_\
+Lehrstuhl für Elektroenergieversorgung (Prof. Peter Schegner) am Institut für Elektrische Energieversorgung und Hochspannungstechnik
 
-**Wissenschaftlicher Mitarbeiter** _Technische Universität Dresden, Dresden_ \hfill _seit Jan. 2010_\
-Institut für Elektrische Energieversorgung und Hochspannungstechnik am Lehrstuhl für Elektroenergieversorgung (Prof. Peter Schegner)
+**Promotion** _Technische Universität Dresden_ \hfill _Jan. 2010 - Okt. 2015_\
+Abschluss: Dr.-Ing. (magna cum laude), "Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität" (\href{https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866}{urn:nbn:de:bsz:14-qucosa-211866})
 
-**Fachpraktikum** _Helsinki University of Technology, Helsinki, Finnland_ \hfill\ _Apr. 2008 - Sep. 2008_\
+**Fachpraktikum** _Helsinki University of Technology, Finnland_ \hfill\ _Apr. 2008 - Sep. 2008_\
 Simulationstechnische Untersuchungen einer dezentralen Kompensation kapazitiver Erdschlussströme im Department of Electrical Power Systems (Prof. Matti Lethonen)
 
-**Diplomstudium** _Technische Universität Dresden, Dresden_ \hfill\ _Okt. 2004 - Dez. 2009_\
-Studium der Elektrotechnik, Thema der Diplomarbeit: Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell
+**Studium** _Technische Universität Dresden_ \hfill\ _Okt. 2004 - Dez. 2009_\
+Abschluss: Dipl.-Ing. der Elektrotechnik, "Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell"
 
 # Forschungsprojekte (Auswahl)
 
@@ -58,7 +58,7 @@ Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektris
 
 # Lehrtätigkeit
 
-**Artificial Intelligence applied to Smart Grids** _Mitarbeit an der Vorlesung_ \hfill\ _seit WS 2020/2021_
+**Artificial Intelligence applied to Smart Grids** _Aufbau der Vorlesung_ \hfill\ _WS 2020/2021_
 
 **Oberseminar Elektrische Energieversorgung** _Planung und Durchführung_ \hfill\ _WS 2020/2021_\
 Thema: Methoden der Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der Elektroenergiequalität
