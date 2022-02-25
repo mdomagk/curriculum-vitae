@@ -37,7 +37,7 @@ Institut für Elektrische Energieversorgung und Hochspannungstechnik am Lehrstuh
 Simulationstechnische Untersuchungen einer dezentralen Kompensation kapazitiver Erdschlussströme im Department of Electrical Power Systems (Prof. Matti Lethonen)
 
 **Diplomstudium** _Technische Universität Dresden, Dresden_ \hfill\ _Okt. 2004 - Dez. 2009_\
-Thema der Diplomarbeit: Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell
+Studium der Elektrotechnik, Thema der Diplomarbeit: Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell
 
 # Forschungsprojekte (Auswahl)
 
