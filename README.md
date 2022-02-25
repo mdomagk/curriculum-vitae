@@ -1,6 +1,6 @@
 # Curriculum Vitae
 
-CV built with [vitae](https://cran.r-project.org/web/packages/vitae/index.html) package for R ([Example CVs](https://pkg.mitchelloharawild.com/vitae/#examples-of-using-vitae), [jburnett](https://github.com/trashbirdecology/cv))
+CV built with [vitae](https://cran.r-project.org/web/packages/vitae/index.html) package for R ([Example CVs](https://pkg.mitchelloharawild.com/vitae/#examples-of-using-vitae), [J. Burnett](https://github.com/trashbirdecology/cv), [S. Miller](https://github.com/svmiller/svm-r-markdown-templates))
 
 ## Files
 
