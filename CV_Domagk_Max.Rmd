@@ -27,44 +27,47 @@ Data Mining, Zeitreihenanalyse, Visualisierungen, Elektroenergiequalität, Netzr
 
 # Wissenschaftlicher Werdegang
 
-**Diplomstudium** Technische Universität Dresden, Dresden \hfill Okt. 2004 - Dez. 2009
+**Promotion** Technische Universität Dresden, Dresden \hfill\textbf{Okt. 2015}\
+Thema: Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität ([https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866](https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866))
 
-- Thema der Diplomarbeit: Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell
-
-**Fachpraktikum** Helsinki University of Technology, Helsinki, Finnland \hfill Apr. 2008 - Sep. 2008\
-Simulationstechnische Untersuchungen einer dezentralen Kompensation kapazitiver Erdschlussströme im Department of Electrical Power Systems (Prof. Matti Lethonen)
-
-**Wissenschaftlicher Mitarbeiter**, Technische Universität Dresden, Dresden \hfill  seit Jan. 2010\
+**Wissenschaftlicher Mitarbeiter**, Technische Universität Dresden, Dresden \hfill\textbf{seit Jan. 2010}\
 Institut für Elektrische Energieversorgung und Hochspannungstechnik am Lehrstuhl für Elektroenergieversorgung (Prof. Peter Schegner)
 
-**Promotion** Technische Universität Dresden, Dresden \hfill Okt. 2015\
-Thema: Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität ([https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866](https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866))
+**Fachpraktikum** Helsinki University of Technology, Helsinki, Finnland \hfill\textbf{Apr. 2008 - Sep. 2008}\
+Simulationstechnische Untersuchungen einer dezentralen Kompensation kapazitiver Erdschlussströme im Department of Electrical Power Systems (Prof. Matti Lethonen)
+
+**Diplomstudium** Technische Universität Dresden, Dresden \hfill\textbf{Okt. 2004 - Dez. 2009}\
+Thema der Diplomarbeit: Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell
 
 # Forschungsprojekte (Auswahl)
 
-**DFG** (FKZ: SCHE 571/8-1, SCHE 571/8-2) Projektleitung \hfill 2010 - 2016\
-Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität
+<!-- **TenneT** (Auftragsforschung) Teilprojektleitung  \hfill 2019 - 2021 -->
 
-**FNN im VDE** (Auftragsforschung) Teilprojektleitung \hfill 2012 - 2014\
-Systematische Bewertung der Strom- und Spannungsqualität in öffentlichen Niederspannungsnetzen Deutschlands
+<!-- - Validierung und Weiterentwicklung von Verfahren zur Beurteilung von Netzrückwirkungen (Verzerrung) -->
 
-**BMWI** (FKZ: 0325757A-L) Teilprojektleitung \hfill 2016 - 2018\
-NetzHarmonie: Optimierte Effizienz und Netzverträglichkeit bei der Integration von Erzeugungsanlagen aus Oberschwingungssicht
-
-**TransnetBW** (Auftragsforschung) Projektleitung  \hfill 2018 - 2022\
+**TransnetBW** (Auftragsforschung) Projektleitung  \hfill\textbf{2018 - 2022}\
 Analyse und Bewertung der Strom- und Spannungsqualität im Übertragungsnetz des Netzbetreibers
 
-**TenneT** (Auftragsforschung) Teilprojektleitung  \hfill 2019 - 2021\
-Validierung und Weiterentwicklung von Verfahren zur Beurteilung von Netzrückwirkungen (Verzerrung)
+**BMWI** (FKZ: 0325757A-L) Teilprojektleitung \hfill\textbf{2016 - 2018}\
+NetzHarmonie: Optimierte Effizienz und Netzverträglichkeit bei der Integration von Erzeugungsanlagen aus Oberschwingungssicht
+
+**FNN im VDE** (Auftragsforschung) Teilprojektleitung \hfill 2012 - 2014
+
+Systematische Bewertung der Strom- und Spannungsqualität in öffentlichen Niederspannungsnetzen Deutschlands
+
+**DFG** (FKZ: SCHE 571/8-1, SCHE 571/8-2) Projektleitung \hfill 2010 - 2016
+
+Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität
 
 # Lehrtätigkeit
 
-Aufbau der Vorlesung: **Speicherung elektrischer Energie** \hfill WS 2015/2016
-
 Aufbau der Vorlesung: **Artificial Intelligence applied to Smart Grids**  \hfill WS 2020/2021
 
-Planung und Durchführung: **Oberseminar Elektrische Energieversorgung** \hfill WS 2020/2021\
-Anwendung von Methoden zur Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der Elektroenergiequalität
+Planung und Durchführung: **Oberseminar Elektrische Energieversorgung** \hfill WS 2020/2021
+
+Thema: Methoden der Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der Elektroenergiequalität
+
+Aufbau der Vorlesung: **Speicherung elektrischer Energie** \hfill WS 2015/2016
 
 Aufgaben am Lehrstuhl: \hfill seit 2010
 
@@ -78,7 +81,7 @@ Aufgaben am Lehrstuhl: \hfill seit 2010
 bibliography_entries("publications.bib") %>%
   mutate(year = as.numeric(gsub("[a-z]", "", id))) %>%
   filter(type %in% c("paper-conference", "article-journal")) %>%
-  arrange(issued, author$family) %>%
+  arrange(desc(issued), author$family) %>%
   filter(
     grepl("domagk|zyabkina|gasch2017|meyer2017", id),
     year >= 2015
@@ -89,7 +92,7 @@ bibliography_entries("publications.bib") %>%
 
 ```{r vortraege}
 bibliography_entries("presentations.bib") %>%
-  arrange(issued, author$family) %>%
+  arrange(desc(issued), author$family) %>%
   filter(!grepl("vortrag2018[ab]", id))
 ```
 
