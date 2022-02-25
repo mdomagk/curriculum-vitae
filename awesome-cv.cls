@@ -118,6 +118,9 @@
 % Enable if you want to make header or footer using fancyhdr
 \pagestyle{fancy}
 
+% Use current font for \url{...} (email adress in header)
+% https://tex.stackexchange.com/a/261435
+\urlstyle{same}
 
 %-------------------------------------------------------------------------------
 %                Configuration for colors
