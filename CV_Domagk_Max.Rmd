@@ -27,8 +27,9 @@ Data Mining, Zeitreihenanalyse, Visualisierungen, Elektroenergiequalität, Netzr
 
 # Wissenschaftlicher Werdegang
 
-**Diplomstudium** Technische Universität Dresden, Dresden \hfill Okt. 2004 - Dez. 2009\
-Thema der Diplomarbeit: Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell
+**Diplomstudium** Technische Universität Dresden, Dresden \hfill Okt. 2004 - Dez. 2009
+
+- Thema der Diplomarbeit: Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell
 
 **Fachpraktikum** Helsinki University of Technology, Helsinki, Finnland \hfill Apr. 2008 - Sep. 2008\
 Simulationstechnische Untersuchungen einer dezentralen Kompensation kapazitiver Erdschlussströme im Department of Electrical Power Systems (Prof. Matti Lethonen)
