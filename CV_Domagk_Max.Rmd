@@ -25,7 +25,7 @@ library(vitae)
 
 Data Mining, Zeitreihenanalyse, Visualisierungen, Elektroenergiequalität, Netzrückwirkungen, Oberschwingungen
 
-# Akademischer Werdegang
+# Wissenschaftlicher Werdegang
 
 **Wissenschaftlicher Mitarbeiter** _Technische Universität Dresden_ \hfill _seit Jan. 2010_\
 Lehrstuhl für Elektroenergieversorgung (Prof. Peter Schegner) am Institut für Elektrische Energieversorgung und Hochspannungstechnik
