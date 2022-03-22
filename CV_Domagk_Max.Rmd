@@ -3,7 +3,7 @@ name: Dr.-Ing. Max Domagk
 date: "`r format(Sys.time(), '%B, %Y')`"
 #position: Doktoringenieur der Elektrotechnik
 address: Institut für Elektrische Energieversorgung und Hochspannungstechnik, Technische Universität Dresden
-profilepic: domagk.jpg
+##profilepic: domagk.jpg
 phone: +49 351 463-35223
 email: max.domagk@tu-dresden.de
 orcid: 0000-0001-5951-2033
@@ -62,8 +62,8 @@ Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektris
 
 **Artificial Intelligence applied to Smart Grids** _Aufbau und Durchführung der Vorlesung_ \hfill\ _seit WS 2020/2021_
 
-<!-- **Oberseminar Elektrische Energieversorgung** _Planung und Durchführung_ \hfill\ _WS 2020/2021_\ -->
-<!-- Thema: Methoden der Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der Elektroenergiequalität -->
+**Oberseminar Elektrische Energieversorgung** _Planung und Durchführung_ \hfill\ _WS 2020/2021_\
+Thema: Methoden der Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der Elektroenergiequalität
 
 **Speicherung elektrischer Energie** _Aufbau der Vorlesung_ \hfill\ _WS 2015/2016_
 
