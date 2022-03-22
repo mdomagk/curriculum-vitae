@@ -60,7 +60,7 @@ Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektris
 
 **Regenerative Energien und Energiespeicher** _Vorlesung als Gastdozent (UMIT Tirol)_ \hfill\ _SS 2022_
 
-**Artificial Intelligence applied to Smart Grids** _Mitarbeit an der Vorlesung_ \hfill\ _seit WS 2020/2021_
+**Artificial Intelligence applied to Smart Grids** _Aufbau und Durchführung der Vorlesung_ \hfill\ _seit WS 2020/2021_
 
 <!-- **Oberseminar Elektrische Energieversorgung** _Planung und Durchführung_ \hfill\ _WS 2020/2021_\ -->
 <!-- Thema: Methoden der Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der Elektroenergiequalität -->
