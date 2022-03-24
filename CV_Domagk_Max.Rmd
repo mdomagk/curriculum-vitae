@@ -76,15 +76,15 @@ Aufgaben am Lehrstuhl: \hfill\ _seit 2010_
 \newpage
 
 # Veröffentlichungen (Auswahl)
-
 ```{r veroeffentlichungen}
 bibliography_entries("publications.bib") %>%
   mutate(year = as.numeric(gsub("[a-z]", "", id))) %>%
   filter(type %in% c("paper-conference", "article-journal")) %>%
   arrange(desc(issued), author$family) %>%
   filter(
-    grepl("domagk|zyabkina|gasch2017|meyer2017", id),
-    year >= 2015
+    ##year >= 2015,
+    grepl("domagk2022|domagk2021|domagk201[5-9]|zyabkina2018|gasch2017|meyer2017", id),
+    !grepl("domagk2015$", id)
   )
 ```
 
@@ -93,7 +93,7 @@ bibliography_entries("publications.bib") %>%
 ```{r vortraege}
 bibliography_entries("presentations.bib") %>%
   arrange(desc(issued), author$family) %>%
-  filter(!grepl("vortrag2018[ab]", id))
+  filter(!grepl("2018[ab]", id))
 ```
 
 # Auszeichnungen
