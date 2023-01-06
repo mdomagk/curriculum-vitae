@@ -93,7 +93,7 @@ bibliography_entries("publications.bib") %>%
 ```{r vortraege}
 bibliography_entries("presentations.bib") %>%
   arrange(desc(issued), author$family) %>%
-  filter(!grepl("2018[ab]", id))
+  filter(!grepl("vortrag2018[ab]|vortrag2017", id))
 ```
 
 # Auszeichnungen
