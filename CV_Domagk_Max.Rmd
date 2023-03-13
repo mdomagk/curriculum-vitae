@@ -23,7 +23,8 @@ library(vitae)
 
 # Forschungsinteressen
 
-Data Mining, Zeitreihenanalyse, Visualisierungen, Elektroenergiequalität, Netzrückwirkungen, Oberschwingungen
+Elektroenergiequalität, Netzrückwirkungen, Oberschwingungen,
+Data Mining, Zeitreihenanalyse, Visualisierungen
 
 # Wissenschaftlicher Werdegang
 
