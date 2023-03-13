@@ -83,7 +83,7 @@ bibliography_entries("publications.bib") %>%
   arrange(desc(issued), author$family) %>%
   filter(
     ##year >= 2015,
-   grepl("domagk2022|domagk2021|domagk201[5-9]|zyabkina2018|gasch2017|meyer2017", id),
+   grepl("zyabkina2022|domagk2022|domagk2021|domagk201[5-9]|zyabkina2018|gasch2017|meyer2017", id),
     !grepl("domagk2015$", id)
   )
 ```
