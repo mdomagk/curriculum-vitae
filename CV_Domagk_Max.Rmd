@@ -4,10 +4,11 @@ date: "`r format(Sys.time(), '%B, %Y')`"
 #position: Doktoringenieur der Elektrotechnik
 address: Institut für Elektrische Energieversorgung und Hochspannungstechnik, Technische Universität Dresden
 ##profilepic: domagk.jpg
+www: maxdomagk.de
 phone: +49 351 463-35223
 email: max.domagk@tu-dresden.de
 orcid: 0000-0001-5951-2033
-researchgate: Max-Domagk
+##researchgate: Max-Domagk
 headcolor: 414141
 csl: ieee_de.csl
 output:
@@ -59,7 +60,7 @@ Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektris
 
 # Lehrtätigkeit
 
-**Regenerative Energien und Energiespeicher** _Vorlesung als Gastdozent (UMIT Tirol)_ \hfill\ _SS 2022_
+**Regenerative Energien und Energiespeicher** _Vorlesung als Gastdozent (UMIT Tirol)_ \hfill\ _seit SS 2022_
 
 **Artificial Intelligence applied to Smart Grids** _Aufbau und Durchführung der Vorlesung_ \hfill\ _seit WS 2020/2021_
 
@@ -77,6 +78,7 @@ Aufgaben am Lehrstuhl: \hfill\ _seit 2010_
 \newpage
 
 # Veröffentlichungen (Auswahl)
+
 ```{r veroeffentlichungen}
 bibliography_entries("publications.bib") %>%
   mutate(year = as.numeric(gsub("[a-z]", "", id))) %>%
@@ -94,7 +96,8 @@ bibliography_entries("publications.bib") %>%
 ```{r vortraege}
 bibliography_entries("presentations.bib") %>%
   arrange(desc(issued), author$family) %>%
-  filter(grepl("202[12]|2018$", id))
+  filter(grepl("vdekolloq2021|pmaps2022|aknrw2023|wshopkcl2023", id))
+  ##filter(grepl("202[12]|2018$", id))
 ```
 
 # Auszeichnungen
