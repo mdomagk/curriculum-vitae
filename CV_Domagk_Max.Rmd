@@ -80,13 +80,12 @@ Aufgaben am Lehrstuhl: \hfill\ _seit 2010_
 # Veröffentlichungen (Auswahl)
 
 ```{r veroeffentlichungen}
-bibliography_entries("publications.bib") %>%
-  mutate(year = as.numeric(gsub("[a-z]", "", id))) %>%
-  filter(type %in% c("paper-conference", "article-journal")) %>%
-  arrange(desc(issued), author$family) %>%
+bibliography_entries("publications.bib") |>
+  mutate(year = as.numeric(gsub("[a-z]", "", id))) |>
+  filter(type %in% c("paper-conference", "article-journal")) |>
+  arrange(desc(issued), author$family) |>
   filter(
-    ##year >= 2015,
-   grepl("zyabkina2022|domagk2022|domagk2021|domagk201[5-9]|zyabkina2018|gasch2017|meyer2017", id),
+    grepl("zyabkina2022|domagk2022|domagk2021|domagk201[5-9]|zyabkina2018|gasch2017|meyer2017", id),
     !grepl("domagk2015$", id)
   )
 ```
@@ -94,10 +93,9 @@ bibliography_entries("publications.bib") %>%
 # Vorträge (Auswahl)
 
 ```{r vortraege}
-bibliography_entries("presentations.bib") %>%
-  arrange(desc(issued), author$family) %>%
-  filter(grepl("vdekolloq2021|pmaps2022|aknrw2023|wshopkcl2023", id))
-  ##filter(grepl("202[12]|2018$", id))
+bibliography_entries("presentations.bib") |>
+  arrange(desc(issued), author$family) |>
+  filter(grepl("ichqp2022|pmaps2022|aknrw2023|wshopkcl2023", id))
 ```
 
 # Auszeichnungen
