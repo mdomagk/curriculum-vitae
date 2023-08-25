@@ -20,8 +20,8 @@ output:
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE, cache = FALSE)
 library(tidyverse)
 library(vitae)
-## library(tinytex)
-## tinytex::install_tinytex()
+## install.packages("tinytex")
+## tinytex::install_tinytex(bundle = "TinyTeX-2")
 ```
 
 # Forschungsinteressen
