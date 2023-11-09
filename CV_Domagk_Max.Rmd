@@ -93,7 +93,7 @@ bibliography_entries("publications.bib") |>
   filter(type %in% c("paper-conference", "article-journal")) |>
   arrange(desc(issued), author$family) |>
   filter(
-    grepl("zyabkina2022|domagk2022|domagk2021|domagk201[5-9]|zyabkina2018|gasch2017|meyer2017", id),
+    grepl("domagk2023|zyabkina2022|domagk2022|domagk2021|domagk201[7-9]|zyabkina2018|gasch2017|meyer2017", id),
     !grepl("domagk2015$", id)
   )
 ```
@@ -103,7 +103,7 @@ bibliography_entries("publications.bib") |>
 ```{r vortraege}
 bibliography_entries("presentations.bib") |>
   arrange(desc(issued), author$family) |>
-  filter(grepl("ichqp2022|pmaps2022|aknrw2023|wshopkcl2023", id))
+  filter(grepl("cired2023|ichqp2022|pmaps2022|wshopkcl2023", id))
 ```
 
 # Auszeichnungen
