@@ -45,6 +45,9 @@ Abschluss: Dipl.-Ing. der Elektrotechnik, "Untersuchungen zur Resynchronisierung
 
 # Forschungsprojekte (Auswahl)
 
+**DFG** (Projektnummer: 521923789) _Projektleitung_ \hfill\ _2024 - 2026_\
+Neue Verfahren zur multivariaten Analyse der Strom- und Spannungsqualität in großen Datenmengen
+
 <!-- **TransnetBW** (Auftragsforschung) _Projektleitung_  \hfill\ _2022 - 2023_\ -->
 <!-- Systematische Untersuchungen zur realistischen Simulation harmonischer Nullsysteme im Übertragungsnetz -->
 
@@ -63,8 +66,8 @@ NetzHarmonie: Optimierte Effizienz und Netzverträglichkeit bei der Integration 
 <!-- **FNN im VDE** (Auftragsforschung) _Teilprojektleitung_ \hfill\ _2012 - 2014_\ -->
 <!-- Systematische Bewertung der Strom- und Spannungsqualität in öffentlichen Niederspannungsnetzen Deutschlands -->
 
-**DFG** (FKZ: SCHE 571/8-1 und SCHE 571/8-2) _Projektleitung_ \hfill\ _2010 - 2016_\
-Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität
+<!-- **DFG** (FKZ: SCHE 571/8-1 und SCHE 571/8-2) _Projektleitung_ \hfill\ _2010 - 2016_\ -->
+<!-- Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität -->
 
 # Lehrtätigkeit
 
@@ -93,7 +96,7 @@ bibliography_entries("publications.bib") |>
   filter(type %in% c("paper-conference", "article-journal")) |>
   arrange(desc(issued), author$family) |>
   filter(
-    grepl("domagk2023|zyabkina2022|domagk2022|domagk2021|domagk201[7-9]|zyabkina2018|gasch2017|meyer2017", id),
+    grepl("bracale2023|domagk2023|zyabkina2022|domagk2022|domagk2021|domagk201[7-9]|zyabkina2018|meyer2017", id),
     !grepl("domagk2015$", id)
   )
 ```
@@ -103,7 +106,7 @@ bibliography_entries("publications.bib") |>
 ```{r vortraege}
 bibliography_entries("presentations.bib") |>
   arrange(desc(issued), author$family) |>
-  filter(grepl("cired2023|ichqp2022|pmaps2022|wshopkcl2023", id))
+  filter(grepl("vdetagung2023|ichqp2022|pmaps2022|wshopkcl2023", id))
 ```
 
 # Auszeichnungen
