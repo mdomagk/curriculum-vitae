@@ -82,7 +82,7 @@ Thema: Methoden der Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der
 
 Aufgaben am Lehrstuhl: \hfill\ _seit 2010_
 
-- Betreuung von Abschlussarbeiten (4 Studien- und 7 Diplom-/Masterarbeiten)
+- Betreuung von Abschlussarbeiten (4 Studien- und 9 Diplom-/Masterarbeiten)
 - Vertretung bei Vorlesungen und Übungen (u.a. Betrieb elektrischer Energieversorgungssysteme/-anlagen)
 - Durchführung von Praktika im Grund- und Hauptstudium (u.a. Leitungsparameter, Schaltüberspannungen)
 
