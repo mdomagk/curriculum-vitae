@@ -106,7 +106,7 @@ bibliography_entries("publications.bib") |>
 ```{r vortraege}
 bibliography_entries("presentations.bib") |>
   arrange(desc(issued), author$family) |>
-  filter(grepl("vdetagung2023|ichqp2022|pmaps2022|wshopkcl2023", id))
+  filter(grepl("vdetagung2023|ichqp2024a|pmaps2022|wshopkcl2023", id))
 ```
 
 # Auszeichnungen
