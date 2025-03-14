@@ -48,17 +48,20 @@ Abschluss: Dipl.-Ing. der Elektrotechnik, "Untersuchungen zur Resynchronisierung
 **DFG** (Projektnummer: 521923789) _Projektleitung_ \hfill\ _2024 - 2026_\
 Neue Verfahren zur multivariaten Analyse der Strom- und Spannungsqualität in großen Datenmengen
 
-<!-- **TransnetBW** (Auftragsforschung) _Projektleitung_  \hfill\ _2022 - 2023_\ -->
-<!-- Systematische Untersuchungen zur realistischen Simulation harmonischer Nullsysteme im Übertragungsnetz -->
+**SysQual** (Auftragsforschung) _Teilprojektleitung_  \hfill\ _2023 - 2026_\
+Neue Methoden für die effiziente und einheitliche Überwachung und Bewertung der Strom- und Spannungsqualität im Übertragungsnetz (50Hertz, Amprion, TenneT und TransnetBW)
+
+**TransnetBW** (Auftragsforschung) _Projektleitung_  \hfill\ _2022 - 2023_\
+Systematische Untersuchungen zur realistischen Simulation harmonischer Nullsysteme im Übertragungsnetz
 
 **Österreichs E-Wirtschaft** (Auftragsforschung) _Teilprojektleitung_  \hfill _2021 - 2023_\
 Analyse des Einflusses ausgewählter Erhebungsparameter auf die statistischen Ergebnisse des MS-Messprogramms zur Spannungsqualität in Österreich
 
-**TenneT** (Auftragsforschung) _Teilprojektleitung_  \hfill _2019 - 2021_\
-Validierung und Weiterentwicklung von Verfahren zur Beurteilung von Netzrückwirkungen (Verzerrung)
+<!-- **TenneT** (Auftragsforschung) _Teilprojektleitung_  \hfill _2019 - 2021_\ -->
+<!-- Validierung und Weiterentwicklung von Verfahren zur Beurteilung von Netzrückwirkungen (Verzerrung) -->
 
-**TransnetBW** (Auftragsforschung) _Projektleitung_  \hfill\ _2018 - 2022_\
-Analyse und Bewertung der Strom- und Spannungsqualität im Übertragungsnetz des Netzbetreibers
+<!-- **TransnetBW** (Auftragsforschung) _Projektleitung_  \hfill\ _2018 - 2022_\ -->
+<!-- Analyse und Bewertung der Strom- und Spannungsqualität im Übertragungsnetz des Netzbetreibers -->
 
 **BMWI** (FKZ: 0325757A-L) _Teilprojektleitung_ \hfill\ _2016 - 2018_\
 NetzHarmonie: Optimierte Effizienz und Netzverträglichkeit bei der Integration von Erzeugungsanlagen aus Oberschwingungssicht
@@ -82,7 +85,7 @@ Thema: Methoden der Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der
 
 Aufgaben am Lehrstuhl: \hfill\ _seit 2010_
 
-- Betreuung von Abschlussarbeiten (4 Studien- und 9 Diplom-/Masterarbeiten)
+- Betreuung von Abschlussarbeiten (4 Studien- und 11 Diplom-/Masterarbeiten)
 - Vertretung bei Vorlesungen und Übungen (u.a. Betrieb elektrischer Energieversorgungssysteme/-anlagen)
 - Durchführung von Praktika im Grund- und Hauptstudium (u.a. Leitungsparameter, Schaltüberspannungen)
 
