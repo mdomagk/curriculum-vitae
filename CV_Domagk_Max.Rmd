@@ -94,7 +94,7 @@ Aufgaben am Lehrstuhl: \hfill\ _seit 2010_
 # Veröffentlichungen (Auswahl)
 
 ```{r veroeffentlichungen}
-do_list <- "gasch2025|zyabkina2025|domagk2024a|blanco2024|bracale2023|domagk2023|zyabkina2022|domagk2022|domagk2021|domagk201[8-9]"
+do_list <- "bracale2025a|zyabkina2025$|domagk2024a|blanco2024|bracale2023|domagk2023|zyabkina2022|domagk2022|domagk2021|domagk201[8-9]"
 do_not_list <- "domagk2015$"
 
 bibliography_entries("publications.bib")|>
@@ -108,7 +108,7 @@ bibliography_entries("publications.bib")|>
 
 ```{r vortraege}
 bibliography_entries("presentations.bib") |>
-  filter(grepl("vdetagung2023|ichqp2024panel|pmaps2022|ichqpwshop2025", id)) |>
+  filter(grepl("wshopkcl2023|vdetagung2023|ichqp2024panel|omicron2025", id)) |>
   arrange(desc(issued), author$family)
 ```
 
