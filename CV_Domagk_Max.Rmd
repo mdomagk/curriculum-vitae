@@ -108,7 +108,7 @@ bibliography_entries("publications.bib")|>
 
 ```{r vortraege}
 bibliography_entries("presentations.bib") |>
-  filter(grepl("wshopkcl2023|vdetagung2023|ichqp2024panel|omicron2025", id)) |>
+  filter(grepl("wshopkcl2023|ichqp2024panel|omicron2025|etfs2026", id)) |>
   arrange(desc(issued), author$family)
 ```
 
