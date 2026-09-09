@@ -11,6 +11,8 @@ orcid: 0000-0001-5951-2033
 ##researchgate: Max-Domagk
 headcolor: 414141
 csl: ieee_de.csl
+params:
+  full: false
 output:
   vitae::awesomecv:
     keep_tex: false
@@ -43,11 +45,11 @@ Simulationstechnische Untersuchungen einer dezentralen Kompensation kapazitiver 
 **Studium** _Technische Universität Dresden_ \hfill\ _Okt. 2004 - Dez. 2009_\
 Abschluss: Dipl.-Ing. der Elektrotechnik, "Untersuchungen zur Resynchronisierung von Stördatenaufzeichnungen und zur Identifikation von Parametern unsymmetrischer Freileitungen am Dynamischen Netzmodell"
 
-# Forschungsprojekte (Auswahl)
+# Forschungsprojekte `r if (!params$full) "(Auswahl)"`
 
 ```{r forschungsprojekte, results='asis'}
-projects <- readr::read_csv2("projects.csv", show_col_types = FALSE) |>
-  dplyr::filter(selected)
+projects <- readr::read_csv2("projects.csv", show_col_types = FALSE)
+if (!params$full) projects <- projects |> dplyr::filter(selected)
 
 for (i in seq_len(nrow(projects))) {
   p <- projects[i, ]
@@ -75,26 +77,49 @@ Aufgaben am Lehrstuhl: \hfill\ _seit 2010_
 - Vertretung bei Vorlesungen und Übungen (u.a. Betrieb elektrischer Energieversorgungssysteme/-anlagen)
 - Durchführung von Praktika im Grund- und Hauptstudium (u.a. Leitungsparameter, Schaltüberspannungen)
 
-\newpage
+`r if (!params$full) "\\newpage"`
 
-# Veröffentlichungen (Auswahl)
+# Veröffentlichungen `r if (!params$full) "(Auswahl)"`
 
-```{r veroeffentlichungen}
-do_list <- "bracale2025a|zyabkina2025$|domagk2024a|blanco2024|bracale2023|domagk2023|zyabkina2022|domagk2022|domagk2021|domagk201[8-9]"
-do_not_list <- "domagk2015$"
+`r if (params$full) "## Zeitschriftenbeiträge"`
 
-bibliography_entries("publications.bib")|>
-  mutate(year = as.numeric(gsub("[a-z]", "", id)))|>
-  filter(type %in% c("paper-conference", "article-journal")) |>
-  filter(grepl(do_list, id), !grepl(do_not_list, id)) |>
+```{r veroeffentlichungen-journal, eval=params$full}
+bibliography_entries("publications.bib") |>
+  filter(type == "article-journal") |>
   arrange(desc(issued), author$family)
 ```
 
-# Vorträge (Auswahl)
+`r if (params$full) "## Konferenzbeiträge"`
 
-```{r vortraege}
+```{r veroeffentlichungen-conference, eval=params$full}
+bibliography_entries("publications.bib") |>
+  filter(type == "paper-conference") |>
+  arrange(desc(issued), author$family)
+```
+
+```{r veroeffentlichungen-auswahl, eval=!params$full}
+pubs_select <- c("bracale2025a", "zyabkina2025", "domagk2025", "domagk2024a",
+                  "blanco2024", "bracale2023", "domagk2023", "zyabkina2022",
+                  "domagk2022", "domagk2021", "domagk2019", "domagk2019a")
+
+bibliography_entries("publications.bib") |>
+  filter(type %in% c("paper-conference", "article-journal")) |>
+  filter(id %in% pubs_select) |>
+  arrange(desc(issued), author$family)
+```
+
+# Vorträge `r if (!params$full) "(Auswahl)"`
+
+```{r vortraege-full, eval=params$full}
 bibliography_entries("presentations.bib") |>
-  filter(grepl("wshopkcl2023|ichqp2024panel|omicron2025|etfs2026", id)) |>
+  arrange(desc(issued), author$family)
+```
+
+```{r vortraege-auswahl, eval=!params$full}
+presentations_select <- c("wshopkcl2023", "ichqp2024panel", "omicron2025", "etfs2026")
+
+bibliography_entries("presentations.bib") |>
+  filter(id %in% presentations_select) |>
   arrange(desc(issued), author$family)
 ```
 
