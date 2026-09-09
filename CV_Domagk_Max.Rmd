@@ -28,8 +28,7 @@ library(vitae)
 
 # Forschungsinteressen
 
-Datenanalyse in der Elektroenergietechnik, Elektroenergiequalität,
-Netzrückwirkungen, Zeitreihenanalyse, Maschinelles Lernen
+Elektrische Energiesysteme, Elektroenergiequalität, Datenanalyse
 
 # Wissenschaftlicher Werdegang
 
