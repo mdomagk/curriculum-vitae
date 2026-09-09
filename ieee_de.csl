@@ -64,7 +64,7 @@
   <macro name="status">
     <choose>
       <if variable="page issue volume" match="none">
-        <text variable="status" text-case="capitalize-first" suffix="" font-weight="bold"/>
+        <text variable="status" text-case="capitalize-first" suffix=""/>
       </if>
     </choose>
   </macro>
