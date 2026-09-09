@@ -32,7 +32,7 @@ Netzrückwirkungen, Zeitreihenanalyse, Maschinelles Lernen
 # Wissenschaftlicher Werdegang
 
 **Wissenschaftlicher Mitarbeiter** _Technische Universität Dresden_ \hfill _seit Jan. 2010_\
-Lehrstuhl für Elektroenergieversorgung (Prof. Peter Schegner) am Institut für Elektrische Energieversorgung und Hochspannungstechnik
+Lehrstuhl für Vernetzte Energiesysteme (Prof. Martin Wolter, vormals Lehrstuhl für Elektrische Energieversorgung unter Prof. Peter Schegner) am Institut für Elektrische Energieversorgung und Hochspannungstechnik
 
 **Promotion** _Technische Universität Dresden_ \hfill _Jan. 2010 - Okt. 2015_\
 Abschluss: Dr.-Ing. (magna cum laude), "Identifikation und Quantifizierung korrelativer Zusammenhänge zwischen elektrischer sowie klimatischer Umgebung und Elektroenergiequalität" (\href{https://nbn-resolving.org/urn:nbn:de:bsz:14-qucosa-211866}{urn:nbn:de:bsz:14-qucosa-211866})
