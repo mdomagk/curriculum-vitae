@@ -16,6 +16,7 @@ params:
 output:
   vitae::awesomecv:
     keep_tex: false
+    pandoc_args: ["--quiet"]
 ---
 
 ```{r setup, include=FALSE}
