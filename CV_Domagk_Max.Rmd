@@ -53,7 +53,7 @@ if (!params$full) projects <- projects |> dplyr::filter(selected)
 for (i in seq_len(nrow(projects))) {
   p <- projects[i, ]
   cat(sprintf(
-    "**%s** (%s) _%s_ \\hfill\\ _%s_\\\n%s\n\n",
+    "\\begin{samepage}\n\\noindent\\textbf{%s} (%s) \\emph{%s} \\hfill \\emph{%s}\\\\\n%s\n\\end{samepage}\n\n",
     p$funder, p$detail, p$role, p$period, p$description
   ))
 }
