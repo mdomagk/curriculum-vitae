@@ -61,7 +61,7 @@ for (i in seq_len(nrow(projects))) {
 
 # Lehrtätigkeit
 
-**Regenerative Energien und Energiespeicher** _Vorlesung als Gastdozent (UMIT Tirol)_ \hfill\ _seit SS 2022_
+**Regenerative Energien und Energiespeicher** _Vorlesung als Gastdozent (UMIT Tirol, Österreich, online)_ \hfill\ _seit SS 2022_
 
 **Artificial Intelligence applied to Smart Grids** _Aufbau und Durchführung der Vorlesung_ \hfill\ _seit WS 2020/2021_
 
