@@ -123,14 +123,14 @@ bibliography_entries("presentations.bib") |>
   arrange(desc(issued), author$family)
 ```
 
-# Organisationstätigkeit
+# Gremien- und Organisationstätigkeit
 
-**Publication Chair** _22nd International Conference on Harmonics and Quality of Power (ICHQP 2026), Technische Universität Dresden_ \hfill\ _2026_
+**Publication Chair** _22nd International Conference on Harmonics and Quality of Power (ICHQP), Dresden_ \hfill\ _2026_
 
-**Organisationskomitee** _1st ICHQP Workshop 2025, King's College London, Großbritannien_ \hfill\ _2025_
+**Organisationskomitee** _1st ICHQP Workshop 2025, London, Großbritannien_ \hfill\ _2025_
 
-# Auszeichnungen
+`r if (params$full) "# Auszeichnungen"`
 
-```{r auszeichnungen}
+```{r auszeichnungen, eval=params$full}
 bibliography_entries("awards.bib")
 ```
