@@ -81,11 +81,23 @@ Aufgaben am Lehrstuhl: \hfill\ _seit 2010_
 
 # Veröffentlichungen `r if (!params$full) "(Auswahl)"`
 
+
+`r if (params$full) "## Manuskripte"`
+
+```{r veroeffentlichungen-manuskripte, eval=params$full}
+manuscript_ids <- c("feistel2026")
+
+bibliography_entries("publications.bib") |>
+  filter(id %in% manuscript_ids) |>
+  arrange(desc(issued), author$family)
+```
+
 `r if (params$full) "## Zeitschriftenbeiträge"`
 
 ```{r veroeffentlichungen-journal, eval=params$full}
 bibliography_entries("publications.bib") |>
   filter(type == "article-journal") |>
+  filter(!id %in% manuscript_ids) |>
   arrange(desc(issued), author$family)
 ```
 
@@ -94,6 +106,7 @@ bibliography_entries("publications.bib") |>
 ```{r veroeffentlichungen-conference, eval=params$full}
 bibliography_entries("publications.bib") |>
   filter(type == "paper-conference") |>
+  filter(!id %in% manuscript_ids) |>
   arrange(desc(issued), author$family)
 ```
 
