@@ -62,18 +62,19 @@ for (i in seq_len(nrow(projects))) {
 
 # Lehrtätigkeit
 
-**Regenerative Energien und Energiespeicher** _Vorlesung als Gastdozent (UMIT Tirol, Österreich, online)_ \hfill\ _seit SS 2022_
+**Regenerative Energien und Energiespeicher** _Gastdozent_ \hfill\ _seit SS 2022_\
+UMIT Tirol, Österreich, online
 
-**Artificial Intelligence applied to Smart Grids** _Aufbau und Durchführung der Vorlesung_ \hfill\ _seit WS 2020/2021_
+**Artificial Intelligence applied to Smart Grids** _Aufbau und Durchführung_ \hfill\ _WS 2020/2021 - WS 2022/2023_
 
 **Oberseminar Elektrische Energieversorgung** _Planung und Durchführung_ \hfill\ _WS 2020/2021_\
 Thema: Methoden der Bild-/Mustererkennung zur Klassifizierung von Zeitreihen der Elektroenergiequalität
 
-**Speicherung elektrischer Energie** _Aufbau der Vorlesung_ \hfill\ _WS 2015/2016_
+**Speicherung elektrischer Energie** _Konzeption und Ausarbeitung_ \hfill\ _WS 2015/2016_
 
-Aufgaben am Lehrstuhl: \hfill\ _seit 2010_
+**Aufgaben am Lehrstuhl** \hfill\ _seit 2010_
 
-- Betreuung von Abschlussarbeiten (5 Studien- und 9 Diplom-/Masterarbeiten)
+- Betreuung und Begutachtung von Abschlussarbeiten (5 Studien- und 8 Diplom-/Masterarbeiten)
 - Vertretung bei Vorlesungen und Übungen (u.a. Betrieb elektrischer Energieversorgungssysteme/-anlagen)
 - Durchführung von Praktika im Grund- und Hauptstudium (u.a. Leitungsparameter, Schaltüberspannungen)
 
